@@ -10,8 +10,9 @@ class CalcTest {
 
 	@Test
 	void test() {
-		Calc ca = new Calc();
-		assertEquals(3,ca.sum(1, 2));
+		assertEquals(3,Calc.sum(1, 2));
+		assertEquals(4,Calc.sum(2, 2));
+		assertEquals(5,Calc.sum(3, 2));
 		
 	}
 
